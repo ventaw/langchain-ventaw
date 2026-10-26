@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "langchain-ventaw"
+version = "0.1.0"
+description = "LangChain tools for creating Ventaw sandboxes and databases"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = ["langchain-core>=0.3", "requests>=2.25"]
+
+[project.urls]
+Homepage = "https://ventaw.com"
